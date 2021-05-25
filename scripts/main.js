@@ -23,3 +23,15 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
+$('#attnsleepModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+$('#mirnaModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
