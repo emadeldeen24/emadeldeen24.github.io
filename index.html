@@ -169,16 +169,20 @@
           <div class="h5 mb-1">An Attention-based Deep Learning Approach for Sleep Stage Classification with Single-Channel EEG</div>
           <div class="mb-1"><b>Emadeldeen Eldele</b>; Zhenghua Chen; Chengyu Liu; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan</div>
           <div class="mb-1 text-info"><b>IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE) [IF: 3.34]</b></div>
-		  <a class="btn btn-outline-danger" target="_blank" href="https://ieeexplore.ieee.org/document/9417097">Paper</a>
-		  <a class="btn btn-outline-success" target="_blank" href="https://github.com/emadeldeen24/AttnSleep">Code</a>
-		  <a class="btn btn-outline-warning" data-toggle="modal" data-target="#attnsleepModal">Cite</a>
+		  <a class="m-1 btn btn-outline-danger" target="_blank" href="https://ieeexplore.ieee.org/document/9417097">Paper</a>
+		  <a class="m-1 btn btn-outline-danger" data-toggle="collapse" href="#attnSleepAbstract" role="button" aria-expanded="false" aria-controls="attnSleepAbstract">Abstract</a>
+		  <a class="m-1 btn btn-outline-success" target="_blank" href="https://github.com/emadeldeen24/AttnSleep">Code</a>
+		  <a class="m-1 btn btn-outline-warning" data-toggle="collapse" href="#attnSleepCite" role="button" aria-expanded="false" aria-controls="attnSleepCite">Cite</a>
 		  
-		  <div class="modal fade" id="attnsleepModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-				<div class="modal-content">
-				  <div class="modal-body">
-					<pre>
-@article{emadeldeen_attnSleep,
+		  <div class="mt-1 collapse" id="attnSleepAbstract">
+		    <div class="card card-body">
+			  Automatic sleep stage mymargin classification is of great importance to measure sleep quality. In this paper, we propose a novel attention-based deep learning architecture called AttnSleep to classify sleep stages using single channel EEG signals. This architecture starts with the feature extraction module based on multi-resolution convolutional neural network (MRCNN) and adaptive feature recalibration (AFR). The MRCNN can extract low and high frequency features and the AFR is able to improve the quality of the extracted features by modeling the inter-dependencies between the features. The second module is the temporal context encoder (TCE) that leverages a multi-head attention mechanism to capture the temporal dependencies among the extracted features. Particularly, the multi-head attention deploys causal convolutions to model the temporal relations in the input features. We evaluate the performance of our proposed AttnSleep model using three public datasets. The results show that our AttnSleep outperforms state-of-the-art techniques in terms of different evaluation metrics. Our source codes, experimental data, and supplementary materials are available at https://github.com/emadeldeen24/AttnSleep .
+		    </div>
+		  </div>
+		  
+		  <div class="mt-1 collapse" id="attnSleepCite">
+		    <div class="card card-body">
+<pre>@article{emadeldeen_attnSleep,
   author={Eldele, Emadeldeen and Chen, Zhenghua and Liu, Chengyu and Wu, Min and Kwoh, Chee-Keong and Li, Xiaoli and Guan, Cuntai},
   journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
   title={An Attention-based Deep Learning Approach for Sleep Stage Classification with Single-Channel EEG}, 
@@ -186,13 +190,10 @@
   volume={29},
   pages={809-818},
   doi={10.1109/TNSRE.2021.3076234}
-}
-					</pre>
-				  </div>
-				  
-				</div>
-			  </div>
+}</pre>
+		    </div>
 		  </div>
+		  
 		  
         </div>
       </div>
@@ -202,27 +203,28 @@
           <div class="h5 mb-1">Enhanced framework for miRNA target prediction</div>
           <div class="mb-1"><b>Emadeldeen Eldele</b>; Sherin M. El-Gokhy; Mohamed T. Faheem Saidahmed</div>
           <div class="mb-1 text-info"><b>12th International Conference on Computer Engineering and Systems (ICCES)</b></div>
-		  <a class="btn btn-outline-danger" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8275367">Paper</a>		  
-		  <a class="btn btn-outline-warning" data-toggle="modal" data-target="#mirnaModal">Cite</a>
+		  <a class="m-1 btn btn-outline-danger" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8275367">Paper</a>		  
+		  <a class="m-1 btn btn-outline-danger" data-toggle="collapse" href="#mirnaAbstract" role="button" aria-expanded="false" aria-controls="mirnaAbstract">Abstract</a>
+		  <a class="m-1 btn btn-outline-warning" data-toggle="collapse" href="#mirnaCite" role="button" aria-expanded="false" aria-controls="mirnaCite">Cite</a>
 		  
-		  <div class="modal fade" id="mirnaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-				<div class="modal-content">
-				  <div class="modal-body">
-					<pre>
-@article{mirna_emad,
+		  
+  		  <div class="mt-1 collapse" id="mirnaAbstract">
+		    <div class="card card-body">
+			  MicroRNAs are small non-coding RNA molecules that play an important role in post-transcriptional gene regulation. They bind with messenger RNAs, affecting the regulation of gene expression causing diseases such as heart diseases and cancer. The two pioneer strategies of miRNA target prediction are either experimentally or computationally. Since experimental techniques are very expensive and slow, several computational tools have been proposed to defeat some of the experimental technical difficulties. In this paper, we propose an enhanced computational framework that predicts miRNA targets depending on structural, positional, and thermodynamic features extracted from the alignment of miRNA and its targets. Then, we select the linearly separable features using the eigenvalue analysis of the covariance matrix of the features. Finally, the selected features are applied to random forest classifier. The obtained results prove that our framework significantly excels other existing tools.
+		    </div>
+		  </div>
+		  
+		  <div class="mt-1 collapse" id="mirnaCite">
+		    <div class="card card-body">
+<pre>@article{mirna_emad,
   author={Ahmed, Emad E. and El-Gokhy, Sherin M. and Saidahmed, Mohamed T. Faheem},
   booktitle={2017 12th International Conference on Computer Engineering and Systems (ICCES)},
   title={Enhanced framework for miRNA target prediction}, 
   year={2017},
   pages={544-549},
   doi={10.1109/ICCES.2017.8275367}}
-}
-					</pre>
-				  </div>
-				  
-				</div>
-			  </div>
+}</pre>
+		    </div>
 		  </div>
 		  
         </div>
