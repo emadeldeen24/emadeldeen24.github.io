@@ -124,6 +124,7 @@
 			<ul>
 				<li>Deep learning</li>
 				<li>Time-Series data</li>
+				<li>Biomedical Sensor data (e.g., EEG, ECG)</li>
 				<li>Self-Supervised learning</li>
 				<li>Transfer learning / Domain Adaptation</li>
 			</ul>
@@ -139,6 +140,12 @@
 	<div class="work-experience-section px-3 px-lg-4">
 		<h2 class="h3 mb-2">Latest news</h2>
 		<div class="alert alert-success">
+			<div class="mb-2">
+				<span  class="h6 text-primary">May 2021 &mdash;</span>
+				Our paper entitled "<a target="_blank" href="https://arxiv.org/pdf/2106.14112.pdf">Time-Series Representation Learning via Temporal and Contextual Contrasting</a>" has been accepted in 
+				<b>International Joint Conferences on Artificial Intelligence (IJCAI-21) [Acceptance Rate: 13.9%]</b>.		
+			</div>
+			
 			<div class="mb-2">
 				<span  class="h6 text-primary">May 2021 &mdash;</span>
 				I was invited as a reviewer for <b>Neurocomputing</b> Journal.			
@@ -163,6 +170,41 @@
   <div class="work-experience-section px-3 px-lg-4" id="publications_tab">
     <h2 class="h3 mb-2">Publications</h2>
     <div class="timeline">
+		
+	<!-- IJCAI paper -->
+	  <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+		  <div class="h6 mb-1 text-primary">2021</div>
+          <div class="h5 mb-1">Time-Series Representation Learning via Temporal and Contextual Contrasting</div>
+          <div class="mb-1"><b>Emadeldeen Eldele</b>; Mohamed Ragab; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan</div>
+          <div class="mb-1 text-info"><b>International Joint Conferences on Artificial Intelligence (IJCAI-21) [Acceptance Rate: 13.9%]</b></div>
+		  <a class="m-1 btn btn-outline-danger" target="_blank" href="https://arxiv.org/pdf/2106.14112.pdf">Paper</a>
+		  <a class="m-1 btn btn-outline-danger" data-toggle="collapse" href="#tsTccAbstract" role="button" aria-expanded="false" aria-controls="tsTccAbstract">Abstract</a>
+		  <a class="m-1 btn btn-outline-success" target="_blank" href="https://github.com/emadeldeen24/TS-TCC">Code</a>
+		  <a class="m-1 btn btn-outline-warning" data-toggle="collapse" href="#tsTccCite" role="button" aria-expanded="false" aria-controls="tsTccCite">Cite</a>
+		  
+		  <div class="mt-1 collapse" id="tsTccAbstract">
+		    <div class="card card-body">
+			    Learning decent representations from unlabeled time-series data with temporal dynamics is a very challenging task. In this paper, we propose an unsupervised Time-Series representation learning framework via Temporal and Contextual Contrasting (TS-TCC), to learn time-series representation from unlabeled data. First, the raw time-series data are transformed into two different yet correlated views by using weak and strong augmentations. Second, we propose a novel temporal contrasting module to learn robust temporal representations by designing a tough cross-view prediction task. Last, to further learn discriminative representations, we propose a contextual contrasting module built upon the contexts from the temporal contrasting module. It attempts to maximize the similarity among different contexts of the same sample while minimizing similarity among contexts of different samples. Experiments have been carried out on three real-world time-series datasets. The results manifest that training a linear classifier on top of the features learned by our proposed TS-TCC performs comparably with the supervised training. Additionally, our proposed TS-TCC shows high efficiency in few-labeled data and transfer learning scenarios.
+		    </div>
+		  </div>
+		  
+		  <div class="mt-1 collapse" id="tsTccCite">
+		    <div class="card card-body">
+<pre>@article{eldele_ts_tcc,
+  author={Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee-Keong and Li, Xiaoli and Guan, Cuntai},
+  booktitle={International Joint Conferences on Artificial Intelligence (IJCAI-21)}, 
+  title={Time-Series Representation Learning via Temporal and Contextual Contrasting}, 
+  year={2021},
+}</pre>
+		    </div>
+		  </div>
+        </div>
+      </div>
+	  
+	  
+	
+	
       <div class="timeline-card timeline-card-primary card shadow-sm">
         <div class="card-body">
 		  <div class="h6 mb-1 text-primary">2021</div>
@@ -182,7 +224,7 @@
 		  
 		  <div class="mt-1 collapse" id="attnSleepCite">
 		    <div class="card card-body">
-<pre>@article{emadeldeen_attnSleep,
+<pre>@article{eldele_attnSleep,
   author={Eldele, Emadeldeen and Chen, Zhenghua and Liu, Chengyu and Wu, Min and Kwoh, Chee-Keong and Li, Xiaoli and Guan, Cuntai},
   journal={IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
   title={An Attention-based Deep Learning Approach for Sleep Stage Classification with Single-Channel EEG}, 
@@ -193,8 +235,6 @@
 }</pre>
 		    </div>
 		  </div>
-		  
-		  
         </div>
       </div>
       <div class="timeline-card timeline-card-primary card shadow-sm">
@@ -216,8 +256,8 @@
 		  
 		  <div class="mt-1 collapse" id="mirnaCite">
 		    <div class="card card-body">
-<pre>@article{mirna_emad,
-  author={Ahmed, Emad E. and El-Gokhy, Sherin M. and Saidahmed, Mohamed T. Faheem},
+<pre>@article{eldele_mirna,
+  author={Eldele, Emadeldeen and El-Gokhy, Sherin M. and Saidahmed, Mohamed T. Faheem},
   booktitle={2017 12th International Conference on Computer Engineering and Systems (ICCES)},
   title={Enhanced framework for miRNA target prediction}, 
   year={2017},
