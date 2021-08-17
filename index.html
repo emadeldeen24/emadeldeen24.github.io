@@ -178,7 +178,46 @@
   <div class="work-experience-section px-3 px-lg-4" id="publications_tab">
     <h2 class="h3 mb-2">Publications</h2>
     <div class="timeline">
-		
+	  
+	  <!-- ADAST paper -->
+	  <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+		  <div class="h6 mb-1 text-primary">2021</div>
+          <div class="h5 mb-1">Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification</div>
+          <div class="mb-1"><b>Emadeldeen Eldele</b>; Mohamed Ragab; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan</div>
+          <div class="mb-1 text-info"><b>Under Review (TNSRE)</b></div>
+		  
+		  <div class="btn-group" role="group" aria-label="First group">
+			<a class="nav-link social mr-3" target="_blank" href="https://arxiv.org/pdf/2107.04470.pdf"><i class="fas fa-sticky-note"></i><span class="menu-title sr-only">Paper</span></a>
+			<a class="nav-link social mr-3" data-toggle="collapse" href="#adastAbstract" role="button" aria-expanded="false" aria-controls="adastAbstract"><i class="fas fa-search-plus"></i><span class="menu-title sr-only">Abstract</span></a>
+			<a class="nav-link social mr-3" target="_blank" href="https://github.com/emadeldeen24/ADAST"><i class="fab fa-github"></i><span class="menu-title sr-only">Code</span></a>
+			<a class="nav-link social mr-3" data-toggle="collapse" href="#adastCite" role="button" aria-expanded="false" aria-controls="adastCite"><i class="fas fa-quote-right"></i><span class="menu-title sr-only">Cite</span></a>
+		  </div>
+		  
+		  
+		  <div class="mt-1 collapse" id="adastAbstract">
+		    <div class="card card-body">
+			    <b><u>Abstract</b></u> Sleep staging is of great importance in the diagnosis and treatment of sleep disorders. Recently, numerous data driven deep learning models have been proposed for automatic sleep staging. They mainly rely on the assumption that training and testing data are drawn from the same distribution which may not hold in real-world scenarios. Unsupervised domain adaption (UDA) has been recently developed to handle this domain shift problem. However, previous UDA methods applied for sleep staging has two main limitations. First, they rely on a totally shared model for the domain alignment, which may lose the domain-specific information during feature extraction. Second, they only align the source and target distributions globally without considering the class information in the target domain, which hinders the classification performance of the model. In this work, we propose a novel adversarial learning framework to tackle the domain shift problem in the unlabeled target domain. First, we develop unshared attention mechanisms to preserve the domain-specific features in the source and target domains. Second, we design a self-training strategy to align the fine-grained class distributions for the source and target domains via target domain pseudo labels. We also propose dual distinct classifiers to increase the robustness and quality of the pseudo labels. The experimental results on six cross-domain scenarios validate the efficacy of our proposed framework for sleep staging and its advantage over state-of-the-art UDA methods.
+		    </div>
+		  </div>
+		  
+		  <div class="mt-1 collapse" id="adastCite">
+		    <div class="card card-body">
+<pre>@misc{eldele2021adversarial,
+      title={Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification}, 
+      author={Emadeldeen Eldele and Mohamed Ragab and Zhenghua Chen and Min Wu and Chee-Keong Kwoh and Xiaoli Li and Cuntai Guan},
+      year={2021},
+      eprint={2107.04470},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}</pre>
+		    </div>
+		  </div>
+        </div>
+      </div>
+	
+	
+	
 	<!-- IJCAI paper -->
 	  <div class="timeline-card timeline-card-primary card shadow-sm">
         <div class="card-body">
