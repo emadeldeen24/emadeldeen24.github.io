@@ -178,12 +178,51 @@
   <div class="work-experience-section px-3 px-lg-4" id="publications_tab">
     <h2 class="h3 mb-2">Publications</h2>
     <div class="timeline">
+	
+	  <!-- SLARDA paper -->
+	  <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+		  <div class="h6 mb-1 text-primary">2021</div>
+          <div class="h5 mb-1">Self-supervised Autoregressive Domain Adaptation for Time Series Data</div>
+          <div class="mb-1">Mohamed Ragab; <b>Emadeldeen Eldele</b>; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li</div>
+          <div class="mb-1 text-info"><b>Under Review</b></div>
+		  
+		  <div class="btn-group" role="group" aria-label="First group">
+			<a class="nav-link social mr-3" target="_blank" href="https://arxiv.org/pdf/2111.14834.pdf"><i class="fas fa-sticky-note"></i><span class="menu-title sr-only">Paper</span></a>
+			<a class="nav-link social mr-3" data-toggle="collapse" href="#slardaAbstract" role="button" aria-expanded="false" aria-controls="slardaAbstract"><i class="fas fa-search-plus"></i><span class="menu-title sr-only">Abstract</span></a>
+			<a class="nav-link social mr-3" data-toggle="collapse" href="#slardaCite" role="button" aria-expanded="false" aria-controls="slardaCite"><i class="fas fa-quote-right"></i><span class="menu-title sr-only">Cite</span></a>
+		  </div>
+		  
+		  
+		  <div class="mt-1 collapse" id="slardaAbstract">
+		    <div class="card card-body">
+			    <b><u>Abstract</b></u> Unsupervised domain adaptation (UDA) has successfully addressed the domain shift problem for visual applications. Yet, these approaches may have limited performance for time series data due to the following reasons. First, they mainly rely on large-scale dataset (i.e., ImageNet) for the source pretraining, which is not applicable for time-series data. Second, they ignore the temporal dimension on the feature space of the source and target domains during the domain alignment step. Last, most of prior UDA methods can only align the global features without considering the fine-grained class distribution of the target domain. To address these limitations, we propose a Self-supervised Autoregressive Domain Adaptation (SLARDA) framework. In particular, we first design a self-supervised learning module that utilizes forecasting as an auxiliary task to improve the transferability of the source features. Second, we propose a novel autoregressive domain adaptation technique that incorporates temporal dependency of both source and target features during domain alignment. Finally, we develop an ensemble teacher model to align the class-wise distribution in the target domain via a confident pseudo labeling approach. Extensive experiments have been conducted on three real-world time series applications with 30 cross-domain scenarios. Results demonstrate that our proposed SLARDA method significantly outperforms the state-of-the-art approaches for time series domain adaptation.
+		    </div>
+		  </div>
+		  
+		  <div class="mt-1 collapse" id="slardaCite">
+		    <div class="card card-body">
+<pre>@misc{ragab2021selfsupervised,
+      title={Self-supervised Autoregressive Domain Adaptation for Time Series Data}, 
+      author={Mohamed Ragab and Emadeldeen Eldele and Zhenghua Chen and Min Wu and Chee-Keong Kwoh and Xiaoli Li},
+      year={2021},
+      eprint={2111.14834},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}</pre>
+		    </div>
+		  </div>
+        </div>
+      </div>
+	  
+	  
+	  
 	  
 	  <!-- ADAST paper -->
 	  <div class="timeline-card timeline-card-primary card shadow-sm">
         <div class="card-body">
 		  <div class="h6 mb-1 text-primary">2021</div>
-          <div class="h5 mb-1">Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification</div>
+          <div class="h5 mb-1">ADAST: Attentive Cross-domain EEG-based Sleep Staging Framework with Iterative Self-Training</div>
           <div class="mb-1"><b>Emadeldeen Eldele</b>; Mohamed Ragab; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan</div>
           <div class="mb-1 text-info"><b>Under Review</b></div>
 		  
@@ -204,7 +243,7 @@
 		  <div class="mt-1 collapse" id="adastCite">
 		    <div class="card card-body">
 <pre>@misc{eldele2021adversarial,
-      title={Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification}, 
+      title={ADAST: Attentive Cross-domain EEG-based Sleep Staging Framework with Iterative Self-Training}, 
       author={Emadeldeen Eldele and Mohamed Ragab and Zhenghua Chen and Min Wu and Chee-Keong Kwoh and Xiaoli Li and Cuntai Guan},
       year={2021},
       eprint={2107.04470},
