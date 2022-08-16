@@ -195,3 +195,10 @@ footer a:not(.nav-link) {
 .nav-pills .nav-link {
     border-radius: 0.1rem;
 }
+
+
+.child_div_1 {
+  float: left;
+  margin-right: 1rem;
+  margin-top: 3px;
+}
