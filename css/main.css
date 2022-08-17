@@ -1,4 +1,4 @@
-/* Buttons  */
+/* Buttons */
 /* Inputs */
 /* Timeline custom component */
 .timeline {
@@ -201,6 +201,10 @@ footer a:not(.nav-link) {
 .front-text{
 	color: #4d0303;
 	text-align: center;
+	font-family: "Candara";
+}
+.front-text.h1{
+	font-size:2.5rem;
 }
 
 .nav-pills .nav-link {
@@ -212,4 +216,51 @@ footer a:not(.nav-link) {
   float: left;
   margin-right: 1rem;
   margin-top: 3px;
+}
+
+
+
+.theme-list {
+    position: relative;
+    padding-left: 30px;
+    list-style: none;
+    z-index: 10;
+}
+
+.theme-list::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9px;
+    margin: auto;
+    width: 1px;
+    height: 85%;
+    background-color: #cacdd6;
+    z-index: -1;
+}
+
+.theme-list li {
+    display: block;
+    margin: 5px 0;
+}
+
+.theme-list li::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    margin: 6px 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #888;
+}
+
+
+
+/* change font for title */
+h2,
+{
+	font-family: "Candara";
 }
