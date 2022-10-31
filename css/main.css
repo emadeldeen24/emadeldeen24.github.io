@@ -1,4 +1,4 @@
-/* Buttons  */
+/* Buttons */
 /* Inputs */
 /* Timeline custom component */
 .timeline {
@@ -40,30 +40,32 @@
 
 .timeline-card-primary {
   border-left-color: #4A89DC; }
-
 .timeline-card-primary:before {
   border-color: #4A89DC; }
-
 .timeline-card-primary:after {
   background-color: #4A89DC; }
 
 .timeline-card-success {
   border-left-color: #37BC9B; }
-
 .timeline-card-success:before {
   border-color: #37BC9B; }
-
 .timeline-card-success:after {
   background-color: #37BC9B; }
   
 .timeline-card-danger {
   border-left-color: #dc3545; }
-
 .timeline-card-danger:before {
   border-color: #dc3545; }
-
 .timeline-card-danger:after {
-  background-color: #dc3545; }  
+  background-color: #dc3545; }
+
+.timeline-card-warning {
+  border-left-color: #a771de; }
+.timeline-card-warning:after {
+  background-color: #a771de; }
+.timeline-card-warning:before {
+  border-color: #a771de; }
+
 
 
 html {
