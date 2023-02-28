@@ -141,6 +141,39 @@
                            
 
 
+                           <!-- ADATIME paper -->
+                           <div class="timeline-card timeline-card-primary card shadow-sm">
+                              <div class="card-body">
+                                 <div class="h5 mb-1">ADATIME: A Benchmarking Suite for Domain Adaptation on Time Series Data</div>
+                                 <div class="mb-1">Mohamed Ragab*; <b>Emadeldeen Eldele*</b>;  Wee Ling Tan; Chuan-Sheng Foo; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li <br/> (* Equal Contribution)</div>
+                                 <div class="h6 child_div_1 mb-1 text-primary">2023</div>
+                                 <div class="mb-1 text-info"><b>ACM Transactions on Knowledge Discovery from Data [IF: 2.713]</b></div>
+                                 <div class="btn-group" role="group" aria-label="First group">
+                                    <a class="nav-link-icon social mr-3" target="_blank" href="https://arxiv.org/abs/2203.08321"><i class="fas fa-sticky-note"></i><span class="menu-title sr-only">Paper</span></a>
+                                    <a class="nav-link-icon social mr-3" data-toggle="collapse" href="#adaTimeAbstract" role="button" aria-expanded="false" aria-controls="adaTimeAbstract"><i class="fas fa-search-plus"></i><span class="menu-title sr-only">Abstract</span></a>
+                                    <a class="nav-link-icon social mr-3" target="_blank" href="https://github.com/emadeldeen24/AdaTime"><i class="fab fa-github"></i><span class="menu-title sr-only">Code</span></a>
+                                    <a class="nav-link-icon social mr-3" data-toggle="collapse" href="#adaTimeCite" role="button" aria-expanded="false" aria-controls="adaTimeCite"><i class="fas fa-quote-right"></i><span class="menu-title sr-only">Cite</span></a>
+                                 </div>
+                                 <div class="mt-1 collapse" id="adaTimeAbstract">
+                                    <div class="card card-body">
+                                       <b><u>Abstract</u></b>Unsupervised domain adaptation methods aim to generalize well on unlabeled test data that may have a different (shifted) distribution from the training data. Such methods are typically developed on image data, and their application to time series data is less explored. Existing works on time series domain adaptation suffer from inconsistencies in evaluation schemes, datasets, and backbone neural network architectures. Moreover, labeled target data are often used for model selection, which violates the fundamental assumption of unsupervised domain adaptation. To address these issues, we develop a benchmarking evaluation suite (ADATIME) to systematically and fairly evaluate different domain adaptation methods on time series data. Specifically, we standardize the backbone neural network architectures and benchmarking datasets, while also exploring more realistic model selection approaches that can work with no labeled data or just few labeled samples. Our evaluation includes adapting state-of-the-art visual domain adaptation methods to time series data as well as the recent methods specifically developed for time series data. We conduct extensive experiments to evaluate 11 state-of-the-art methods on five representative datasets spanning 55 cross-domain scenarios. Our results suggest that with careful selection of hyper-parameters, visual domain adaptation methods are competitive with methods proposed for time series domain adaptation. In addition, we find that hyper-parameters could be selected based on realistic model selection approaches. Our work unveils practical insights for applying domain adaptation methods on time series data and builds a solid foundation for future works in the field.
+                                    </div>
+                                 </div>
+                                 <div class="mt-1 collapse" id="adaTimeCite">
+                                    <div class="card card-body">
+                                       <pre>@article{ragab2023adatime,
+  title={ADATIME: A Benchmarking Suite for Domain Adaptation on Time Series Data},
+  author={Mohamed Ragab and Emadeldeen Eldele and Wee Ling Tan and Chuan-Sheng Foo and Zhenghua Chen and Min Wu and Chee-Keong Kwoh and Xiaoli Li},
+  journal={ACM Transactions on Knowledge Discovery from Data},
+  year={2023}
+}
+</pre>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+
 
 
                            <!-- Survey paper -->
@@ -370,37 +403,8 @@
                            
 
 
-                           <!-- ADATIME paper -->
-                           <div class="timeline-card timeline-card-primary card shadow-sm">
-                              <div class="card-body">
-                                 <div class="h5 mb-1">ADATIME: A Benchmarking Suite for Domain Adaptation on Time Series Data</div>
-                                 <div class="mb-1">Mohamed Ragab*; <b>Emadeldeen Eldele*</b>;  Wee Ling Tan; Chuan-Sheng Foo; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li <br/> (* Equal Contribution)</div>
-                                 <div class="h6 child_div_1 mb-1 text-primary">2022</div>
-                                 <div class="mb-1 text-info"><b>Under Review</b></div>
-                                 <div class="btn-group" role="group" aria-label="First group">
-                                    <a class="nav-link-icon social mr-3" target="_blank" href="https://arxiv.org/abs/2203.08321"><i class="fas fa-sticky-note"></i><span class="menu-title sr-only">Paper</span></a>
-                                    <a class="nav-link-icon social mr-3" data-toggle="collapse" href="#adaTimeAbstract" role="button" aria-expanded="false" aria-controls="adaTimeAbstract"><i class="fas fa-search-plus"></i><span class="menu-title sr-only">Abstract</span></a>
-                                    <a class="nav-link-icon social mr-3" target="_blank" href="https://github.com/emadeldeen24/AdaTime"><i class="fab fa-github"></i><span class="menu-title sr-only">Code</span></a>
-                                    <a class="nav-link-icon social mr-3" data-toggle="collapse" href="#adaTimeCite" role="button" aria-expanded="false" aria-controls="adaTimeCite"><i class="fas fa-quote-right"></i><span class="menu-title sr-only">Cite</span></a>
-                                 </div>
-                                 <div class="mt-1 collapse" id="adaTimeAbstract">
-                                    <div class="card card-body">
-                                       <b><u>Abstract</u></b>Unsupervised domain adaptation methods aim to generalize well on unlabeled test data that may have a different (shifted) distribution from the training data. Such methods are typically developed on image data, and their application to time series data is less explored. Existing works on time series domain adaptation suffer from inconsistencies in evaluation schemes, datasets, and backbone neural network architectures. Moreover, labeled target data are usually employed for model selection, which violates the fundamental assumption of unsupervised domain adaptation. To address these issues, we develop a benchmarking evaluation suite (ADATIME) to systematically and fairly evaluate different domain adaptation methods on time series data. Specifically, we standardize the backbone neural network architectures and benchmarking datasets, while also exploring more realistic model selection approaches that can work with no labeled data or just few labeled samples. Our evaluation includes adapting state-of-the-art visual domain adaptation methods to time series data in addition to the recent methods specifically developed for time series data. We conduct extensive experiments to evaluate 10 state-of-the-art methods on four representative datasets spanning 20 cross-domain scenarios. Our results suggest that with careful selection of hyper-parameters, visual domain adaptation methods are competitive with methods proposed for time series domain adaptation. In addition, we find that hyper-parameters could be selected based on realistic model selection approaches. Our work unveils practical insights for applying domain adaptation methods on time series data and builds a solid foundation for future works in the field.
-                                    </div>
-                                 </div>
-                                 <div class="mt-1 collapse" id="adaTimeCite">
-                                    <div class="card card-body">
-                                       <pre>@article{ragab2022adatime,
-  title={ADATIME: A Benchmarking Suite for Domain Adaptation on Time Series Data},
-  author={Mohamed Ragab and Emadeldeen Eldele and Wee Ling Tan and Chuan-Sheng Foo and Zhenghua Chen and Min Wu and Chee-Keong Kwoh and Xiaoli Li},
-  journal={arXiv preprint arXiv:2203.08321},
-  year={2022}
-}
-</pre>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+
+
                            <!-- class-condition FD paper -->
                            <div class="timeline-card timeline-card-primary card shadow-sm">
                               <div class="card-body">
