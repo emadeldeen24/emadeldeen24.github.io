@@ -202,7 +202,7 @@
                                        </div>
 
                                        <div class="p-1 mb-2 bg-light rounded">
-                                          This survey paper presents a taxonomy to categorize existing approaches that deal with the scarcity of labeled data in time series data such as transfer learning, self-supervised learning, and semi-supervised learning. The paper also reviews recent advances in each approach, discusses their limitations, and suggests future directions for further progress in the field.
+                                          This survey paper presents a new taxonomy to categorize existing approaches that deal with the scarcity of labeled data in time series data such as transfer learning, self-supervised learning, and semi-supervised learning. The paper also reviews recent advances in each approach, discusses their limitations, and suggests future directions for further progress in the field.
                                        </div>
 
                                        <div class="p-1 mb-1 bg-light rounded">
@@ -282,7 +282,7 @@
                                        </div>
 
                                        <div class="p-1 mb-2 bg-light rounded">
-                                          This work proposes a novel lightweight contrastive domain adaptation framework called CoTMix for time-series data, which uses contrastive learning to mitigate the distribution shift across different domains. We propose temporal mixup strategy to generate intermediate augmented views for source and target domains, which are then leveraged to maximize similarity between each domain and its corresponding view and gradually push both domains towards a common intermediate space.
+                                          This work proposes a novel lightweight contrastive domain adaptation framework called CoTMix for time-series data, which uses contrastive learning solely to mitigate the distribution shift across different domains. We propose a novel temporal mixup strategy to generate intermediate augmented views for source and target domains, which are then leveraged for contrastive learning, which gradually pushes both domains towards a common intermediate space, while learning about their temporal relations.
                                        </div>
 
                                        <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/emadeldeen24/CoTMix"><i class="fab fa-github"></i> <b>Code</b></a>
@@ -407,7 +407,7 @@
                                        </div>
 
                                        <div class="p-1 mb-2 bg-light rounded">
-                                          This paper describes a new approach to address the domain shift problem in time series data using unsupervised domain adaptation (UDA) called Self-supervised Autoregressive Domain Adaptation (SLARDA). In SLARDA, we propose a self-supervised learning module that improves the transferability of source features, in addition to a novel autoregressive domain adaptation technique to incorporate temporal dependency in adversarial training. Last, we incorporate an ensemble teacher model to align the class-wise distribution in the target domain using pseudo labeling.
+                                          This paper describes a new approach to address the domain shift problem in time series data using unsupervised domain adaptation called Self-supervised Autoregressive Domain Adaptation (SLARDA). In SLARDA, we propose a self-supervised learning module that improves the transferability of source features, in addition to a novel autoregressive domain adaptation technique to incorporate temporal dependency in adversarial training. Last, we incorporate an ensemble teacher model to align the class-wise distribution in the target domain using confident pseudo labels.
                                        </div>
 
                                        <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/mohamedr002/SLARDA"><i class="fab fa-github"></i> <b>Code</b></a>
@@ -451,7 +451,7 @@
                                        </div>
 
                                        <div class="p-1 mb-2 bg-light rounded">
-                                          This paper proposes a new domain generalization approach called CCDG for fault diagnosis of rolling machinery that can learn environment-independent representation among data collected from different environments. This approach attempts to maximize the mutual information of similar classes across different domains while minimizing mutual information among different classes to learn domain-independent class representation.
+                                          This paper proposes a new domain generalization approach called CCDG for fault diagnosis of rolling machinery that can learn environment-independent representation among data collected from different environments. This approach attempts to maximize the mutual information of similar classes across different source domains while minimizing mutual information among different classes to learn domain-independent class representation.
                                        </div>
 
                                        <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/mohamedr002/CCDG"><i class="fab fa-github"></i> <b>Code</b></a>
@@ -497,7 +497,7 @@
                                        </div>
 
                                        <div class="p-1 mb-2 bg-light rounded">
-                                          This paper proposes an unsupervised Time-Series representation learning framework via Temporal and Contextual Contrasting (TS-TCC), which learns representations from unlabeled data by transforming the raw data into two different yet correlated views using weak and strong augmentations. A novel temporal contrasting module and contextual contrasting module are proposed to learn robust temporal representations and further learn discriminative representations as well.
+                                          This paper proposes a self-supervised Time-Series representation learning framework via Temporal and Contextual Contrasting (TS-TCC), which learns representations from unlabeled data. First, we transform the raw data into two different yet correlated views using weak and strong augmentations. Next, a novel cross-view temporal contrasting module and a contextual contrasting module are proposed to learn robust temporal representations and further learn discriminative representations from the  generated augmentated views.
                                        </div>
 
                                        <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/emadeldeen24/TS-TCC"><i class="fab fa-github"></i> <b>Code</b></a>
