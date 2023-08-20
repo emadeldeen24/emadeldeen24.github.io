@@ -133,6 +133,24 @@
                                        </div>
                                     </div>
                                  </div>
+                                 <div class="timeline-card timeline-card-warning card shadow-sm">
+                                    <div class="card-body">
+                                       <div class="h5 mb-0">Updates</div>
+                                       <div>
+                                          <div class="row">
+                                             <ul class="theme-list">
+                                                <li class="text-secondary">Our paper "<a target="_blank" href="https://arxiv.org/abs/2208.06616">Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification</a>" has been accepted for publication in the <b>IEEE TPAMI</b></li>
+                                                <li class="text-secondary">Our paper "<a target="_blank" href="https://dl.acm.org/doi/10.1145/3580305.3599507">Source-Free Domain Adaptation with Temporal Imputation for Time Series Data</a>" has been accepted in <b>ACM KDD'23</b></li>
+                                                <li class="text-secondary">Our paper "<a target="_blank" href="https://arxiv.org/abs/2212.01555"> Contrastive Domain Adaptation for Time-Series via Temporal Mixup</a>" has been accepted in the <b>IEEE TAI</b></li>
+                                                <li class="text-secondary">Our paper "<a target="_blank" href="https://arxiv.org/abs/2203.08321">ADATIME: A Benchmarking Suite for Domain Adaptation on Time Series Data</a>" has been accepted in the <b>ACM TKDD</b></li>
+                                                <li class="text-secondary">Our evaluation paper "<a target="_blank" href="https://ieeexplore.ieee.org/document/10044720">Self-supervised Learning for Label-Efficient Sleep Stage Classification: A Comprehensive Evaluation</a>" has been accepted in the <b>IEEE TNSRE</b></li>
+                                             </ul>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+
                               </div>
                            </div>
                         </div>
@@ -144,7 +162,36 @@
                      <div class="work-experience-section px-3 px-lg-4" id="publications_tab">
                         <!-- <h2 class="h3 mb-2">Publications</h2> -->
                         <div class="timeline">
-                           
+
+
+                           <!-- CATCC paper -->
+                           <div class="timeline-card timeline-card-primary card shadow-sm">
+                              <div class="card-body">
+                                 <a class="h5 child_div_1 mb-1" data-toggle="collapse" aria-hidden="true" href="#CATCC_details" role="button" aria-expanded="false" aria-controls="CATCC_details"><i class="fa fa-angle-down fa-lg"></i><span class="menu-title sr-only"></span></a>
+                                 <div class="h5 mb-1"><a target="_blank" href="https://arxiv.org/abs/2208.06616">Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification</a></div>
+                                 <div class="mb-1 text-success">
+                                    <div class=" child_div_1 mb-1 text-primary"><b>2022</b></div>
+                                    <b>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) [IF: 24.314]</b>
+                                 </div>
+                                 <div class="mt-1 collapse" id="CATCC_details">
+                                    <div class="p-1 mb-2 bg-light rounded">
+                                       <b>Emadeldeen Eldele</b>;  Mohamed Ragab; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan
+                                    </div>
+                                    <div class="p-1 mb-2 bg-light rounded">
+                                       This work proposes a novel Time-Series semi-supervised representation learning framework, CA-TCC, that learns representations given few labeled data using contrastive learning. CA-TCC builds on top of our TS-TCC work by leveraging the robust pseudo labels from the fine-tuned TS-TCC model in a supervised contrastive loss.
+                                    </div>
+                                    <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/emadeldeen24/CA-TCC"><i class="fab fa-github"></i> <b>Code</b></a>
+                                    <div class="p-1 mb-1 bg-light rounded">
+                                       <pre>@article{emadeldeen2022catcc,
+   title   = {Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification},
+   author  = {Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee Keong and Li, Xiaoli and Guan, Cuntai},
+   journal = {arXiv preprint arXiv:2208.06616},
+   year    = {2022}
+}</pre>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>                           
 
 
 						   <!-- MAPU paper -->
@@ -166,20 +213,20 @@
                                     <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/mohamedr002/MAPU_SFDA_TS"><i class="fab fa-github"></i> <b>Code</b></a>
                                     <div class="p-1 mb-1 bg-light rounded">
                                        <pre>@inproceedings{MAPU,
-  author = {Ragab, Mohamed and Eldele, Emadeldeen and Wu, Min and Foo, Chuan-Sheng and Li, Xiaoli and Chen, Zhenghua},
-  title = {Source-Free Domain Adaptation with Temporal Imputation for Time Series Data},
-  year = {2023},
-  isbn = {9798400701030},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3580305.3599507},
-  doi = {10.1145/3580305.3599507},
-  booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  pages = {1989–1998},
-  numpages = {10},
-  keywords = {time series data, temporal imputation, source-free domain adaptation, privacy preserving},
-  location = {Long Beach, CA, USA},
-  series = {KDD '23}
+author = {Ragab, Mohamed and Eldele, Emadeldeen and Wu, Min and Foo, Chuan-Sheng and Li, Xiaoli and Chen, Zhenghua},
+title = {Source-Free Domain Adaptation with Temporal Imputation for Time Series Data},
+year = {2023},
+isbn = {9798400701030},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3580305.3599507},
+doi = {10.1145/3580305.3599507},
+booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {1989–1998},
+numpages = {10},
+keywords = {time series data, temporal imputation, source-free domain adaptation, privacy preserving},
+location = {Long Beach, CA, USA},
+series = {KDD '23}
 }</pre>
                                     </div>
                                  </div>
@@ -325,34 +372,7 @@
                                  </div>
                               </div>
                            </div>
-                           <!-- CATCC paper -->
-                           <div class="timeline-card timeline-card-primary card shadow-sm">
-                              <div class="card-body">
-                                 <a class="h5 child_div_1 mb-1" data-toggle="collapse" aria-hidden="true" href="#CATCC_details" role="button" aria-expanded="false" aria-controls="CATCC_details"><i class="fa fa-angle-down fa-lg"></i><span class="menu-title sr-only"></span></a>
-                                 <div class="h5 mb-1"><a target="_blank" href="https://arxiv.org/abs/2208.06616">Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification</a></div>
-                                 <div class="mb-1 text-success">
-                                    <div class=" child_div_1 mb-1 text-primary"><b>2022</b></div>
-                                    <b>Preprint</b>
-                                 </div>
-                                 <div class="mt-1 collapse" id="CATCC_details">
-                                    <div class="p-1 mb-2 bg-light rounded">
-                                       <b>Emadeldeen Eldele</b>;  Mohamed Ragab; Zhenghua Chen; Min Wu; Chee-Keong Kwoh; Xiaoli Li; Cuntai Guan
-                                    </div>
-                                    <div class="p-1 mb-2 bg-light rounded">
-                                       This work proposes a novel Time-Series semi-supervised representation learning framework, CA-TCC, that learns representations given few labeled data using contrastive learning. CA-TCC builds on top of our TS-TCC work by leveraging the robust pseudo labels from the fine-tuned TS-TCC model in a supervised contrastive loss.
-                                    </div>
-                                    <a class="nav-link alert alert-success" target="_blank" justify-content="center" href="https://github.com/emadeldeen24/CA-TCC"><i class="fab fa-github"></i> <b>Code</b></a>
-                                    <div class="p-1 mb-1 bg-light rounded">
-                                       <pre>@article{emadeldeen2022catcc,
-   title   = {Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification},
-   author  = {Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee Keong and Li, Xiaoli and Guan, Cuntai},
-   journal = {arXiv preprint arXiv:2208.06616},
-   year    = {2022}
-}</pre>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+
                            <!-- ADAST paper -->
                            <div class="timeline-card timeline-card-primary card shadow-sm">
                               <div class="card-body">
